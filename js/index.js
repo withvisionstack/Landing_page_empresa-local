@@ -93,7 +93,7 @@
           : "Fale comigo e agende seu horario";
         if (!open)
           document.getElementById("wBtn").href =
-            "https://wa.me/554398821-3974?text=Olá!%20Estou%20entrando%20em%20contato%20fora%20do%20horário.%20Gostaria%20de%20agendar%20quando%20disponível!%20🌸";
+            "https://wa.me/5543988213974?text=Olá!%20Estou%20entrando%20em%20contato%20fora%20do%20horário.%20Gostaria%20de%20agendar%20quando%20disponível!%20🌸";
       }
       checkSt();
       setInterval(checkSt, 60000);
@@ -239,3 +239,4 @@
       );
 
       document.querySelectorAll(".rev").forEach((el) => obs.observe(el));
+
