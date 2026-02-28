@@ -1,0 +1,16 @@
+cores 
+  --rose: #9b5145;
+  --rose-light: #f1d9d9;
+  --muted: #8e7e7c;
+  --blush: #e6b2b9;
+  --rose-dark: #7c5651;
+  --sand: #b09894;
+  --cream: #d1bebc;
+  --warm: #966b66;
+  --bg: #fdf8f7;
+  --bg-dark: #180e0d;
+  --text: #221514;
+  --text-light: #6b4f4c;
+  --fd: "Playfair Display", Georgia, serif;
+  --fb: "Jost", sans-serif;
+  --ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
