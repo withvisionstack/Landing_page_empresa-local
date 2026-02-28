@@ -81,7 +81,7 @@
         const dc = open ? "open" : "closed";
         document.getElementById("sbDot").className = "sdot " + dc;
         document.getElementById("sbTxt").textContent =
-          (open ? "Estamos abertas! " : "Fechado agora. ") + next;
+          (open ? "Estamos abertos! " : "Fechado agora. ") + next;
         document.getElementById("hDot").className =
           "pdot " + (open ? "opn" : "cls");
         document.getElementById("hSt").textContent = open
@@ -237,4 +237,5 @@
         },
         { threshold: 0.1 },
       );
+
       document.querySelectorAll(".rev").forEach((el) => obs.observe(el));
